@@ -202,16 +202,3 @@ a:hover{
     margin: 15px;
 }
 
-@media (max-width:468px){
-    .page-title {
-        display: block;
-        width:100%;
-    }
-}
-@media (max-width:468px){
-    .top-background{
-        background-image: url(images/top-backgroungimage.jpg);
-        background-size: auto;
-    }
-}
-    
