@@ -204,6 +204,7 @@ a:hover{
 
 @media (max-width:468px){
     .page-title {
+        display: block;
         width:100%;
     }
 }
