@@ -201,3 +201,10 @@ a:hover{
     text-align: center;
     margin: 15px;
 }
+
+@media (max-width:468px){
+    .page-title {
+        width:100%;
+    }
+}
+    
