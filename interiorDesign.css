@@ -208,4 +208,10 @@ a:hover{
         width:100%;
     }
 }
+@media (max-width:468px){
+    .top-background{
+        background-image: url(images/top-backgroungimage.jpg);
+        background-size: auto;
+    }
+}
     
