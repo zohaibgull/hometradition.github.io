@@ -10,7 +10,8 @@ body{
 .menu{
     
     text-align: center;
-    font-size: 5rem;
+    font-size: 1.125rem;
+    /* 16px above */
     
 }
 .menu-ul{
@@ -19,8 +20,9 @@ body{
 .menu-ul li{
     display: inline-block;
     font-variant: small-caps;
-    letter-spacing: 3px;
-    padding: 10px 30px;
+    letter-spacing: 0.188rem;
+    padding: 0.625rem 1.875rem;  
+    /* above padding 10px 30px  letter spacing 3px*/
 }
 
 a{
