@@ -3,7 +3,7 @@ body{
 }
 .top-background{
     background-image: url(images/top-backgroungimage.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
