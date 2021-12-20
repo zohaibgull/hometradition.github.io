@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interiorDesign.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+    <title>Document</title>
+<!-- javascript below -->
+<script>
+    function stickyMenu(){
+        var sticky= document.getElementById("sticky");
+        if(window.pageYOffset > 20){
+            sticky.classList.add("sticky");
+            sticky.classList.remove("menu-ul");
+        }
+        else{
+            sticky.classList.remove("sticky");
+        }
+    }
+    window.onscroll = function(){
+         stickyMenu();
+    }
+</script>
+
+</head>
+<body>
+    <div class="top-background">
+        <div class="menu" id="sticky">
+            <ul class="menu-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Designs</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Appointment</a></li>
+            </ul>
+        </div>
+        <div class="page-title">INTERIOR DESIGNS
+            <div class="description">
+                Let Us Make Your Home Heven
+            </div>
+        </div>
+    </div>
+<!-- Our Design Block -->
+<div class="page-blocks">
+    <div class="title" data-aos="fade-right">
+        Our Designs
+    </div>
+    <div class="design">
+        <img src="images/ourdesign1.jpg" data-aos="fade-up"/>
+        <img src="images/ourdesign2.jpg" data-aos="fade-up"/>
+        <img src="images/ourdesign3.jpg" data-aos="fade-up"/>
+        <img src="images/ourdesign4.jpg" data-aos="fade-up"/>
+        <img src="images/ourdesign5.jpg" data-aos="fade-right"/>
+        <img src="images/ourdesign6.jpg" data-aos="fade-right"/>
+        <img src="images/ourdesign7.jpg" data-aos="fade-right"/>
+        <img src="images/ourdesign8.jpg" data-aos="fade-left"/>
+        <img src="images/ourdesign9.jpg" data-aos="fade-left"/>
+        <img src="images/ourdesign10.jpg" data-aos="fade-left"/>
+        <img src="images/ourdesign11.jpg" data-aos="fade-up"/>
+    </div>
+    <button class="more-designs-btn" data-aos="fade-up">More Designs</button>
+</div>
+<!-- Why Us Block -->
+<div class="page-blocks">
+    <div class="title" data-aos="fade-right">
+        Why Us
+    </div>
+    <div class="flex-block">
+        <div class="why-us-flex-item" data-aos="fade-up">
+            <div class="block-label">
+                Our Projects
+            </div>
+            <div class="block-desccription">Add Description Here</div>
+        </div>
+        <div class="why-us-flex-item" data-aos="fade-up">
+            <div class="block-label">
+                Our Designs
+            </div>
+            <div class="block-desccription">Add Description Here</div>
+        </div>
+        <div class="why-us-flex-item" data-aos="fade-up">
+            <div class="block-label">
+                Our Services
+            </div>
+            <div class="block-desccription">Add Description Here</div>
+        </div>
+        <div class="why-us-flex-item" data-aos="fade-up">
+            <div class="block-label">
+                Finished Projects
+            </div>
+            <div class="block-number">
+                1,471,987
+            </div>
+        </div>
+        <div class="why-us-flex-item" data-aos="fade-up">
+            <div class="block-label">
+                Upcomming Projects
+            </div>
+            <div class="block-number">
+                251,907
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Appointment Block -->
+<div class="page-blocks">
+    <div class="title" data-aos="zoom-in">
+        Appointment
+    </div>
+    <div class="flex-block">
+        <div class="appointment-flex-item" data-aos="fade-right">
+            <div class="appoinment-img">
+                <div class="appoinment-text">
+                    Make Am Appointment Today
+                </div>
+            </div>
+        </div>
+        <div class="appointment-flex-item" data-aos="fade-left">
+            <form class="appointment-form">
+                <input type="text" placeholder="Name"/><br/>
+                <input type="text" placeholder="Name"/><br/>
+                <input type="text" placeholder="Name"/><br/>
+                <input type="text" placeholder="Name"/><br/>
+                <textarea type="text" placeholder="Requirement"></textarea><br/>
+                <button class="Appointment-btn">Make An Appointment</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- footer block -->
+
+<div class="footer">
+    <div class="locations">
+        <div>Khyber PakhtunKhwa<br/>
+            <div class="address">IM Science Hayat Abad<br/>Zip Code 222</div>
+        </div>
+    </div>
+    <div class="locations">
+        <div>Punjab <br/>
+            <div class="address">IM Science Hayat Abad<br/>Zip Code 222</div>
+        </div>
+    </div>
+    <div class="locations">
+        <div>Baluchistan <br/>
+            <div class="address">IM Science Hayat Abad<br/>Zip Code 222</div>
+        </div>
+    </div>
+    <div class="locations">
+        <div>Sindh <br/>
+            <div class="address">IM Science Hayat Abad<br/>Zip Code 222</div>
+        </div>
+    </div>
+    <div class="social-media-icons">
+        <a href="https://www.instagram.com/home.traditions.pk/"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/+923345025859"><i class="fab fa-whatsapp"></i></a>
+        <!-- <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <i class="fab fa-whatsapp-square"></i> -->
+    </div>
+</div>
+<div class="copyright"><i class="far fa-copyright fa-1x">2021 By ZobaTech</i></div>
+</body>
+</html>
+
+<script>
+    AOS.init({
+        duration:1400,
+    });
+</script>
