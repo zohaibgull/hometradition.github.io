@@ -113,7 +113,7 @@ a:hover{
 .block-number{
     font-weight: bold;
     font-size: 50px;
-    padding: 20px;
+    padding: 20px; 
 }
 
 .appointment-flex-item{
