@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    padding: 0;
 }
 .top-background{
     background-image: url(images/top-backgroungimage.jpg);
@@ -12,78 +11,86 @@ body{
     
     text-align: center;
     font-size: 1.125rem;
-    /* 16px above */
     
 }
 .menu-ul{
-    padding: 10px;
+    padding: 0.625rem;
 }
 .menu-ul li{
     display: inline-block;
     font-variant: small-caps;
     letter-spacing: 0.188rem;
-    padding: 0.625rem 1.875rem;  
-    /* above padding 10px 30px  letter spacing 3px*/
+    padding: 0.625rem 1.875rem;
+}
+.menu-ul li:hover{
+    background-color: rgba(252, 194, 4, 0.637);
 }
 
 a{
-    border-bottom: 1px solid transparent;
+    border-bottom: 0.063rem solid transparent;
     color: white;
     text-decoration: none;
 }
 
 a:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 0.063rem solid rgba(252, 194, 4, 0.637);
+    /* white */
 }
 .sticky{
-    background: #0f4c75;
+    background: #2b2a33;
     position: fixed;
     width: 100%;
     z-index: 100;
 }
 .sticky ul{
     padding: 0;
-    margin: 10px;
+    margin: 0.625rem;
 }
 .page-title{
     text-align: center;
-    font-size: 50px;
-    padding: 200px;
+    font-size: 3.125rem;
+    padding: 12.5rem;
     color: white;
-    letter-spacing: 15px;
-    text-shadow: 0 0 5px #0f4c75;
+    letter-spacing: 0.938rem;
+    text-shadow: 0 0 0.313rem #2b2a33;
 }
 .description, .title{
     font-variant: small-caps;
-    font-size: 30px;
-    margin: 20px;
+    font-size: 1.875rem;
+    margin: 1.25rem;
 }
 .page-blocks {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 .title{
-    letter-spacing: 10px;
-    color:  #0f4c75;
+    letter-spacing: 0.625rem;
+    color:  #2b2a33;
 }
 .design img{
     height: 35%;
     max-width: 95%;
-    margin: 15px;
+    margin: 0.938rem;
 }
 .more-designs-btn{
     background: transparent;
-    border: 2px solid #0f4c75;
-    color: #0f4c75;
+    border: 0.125rem solid #2b2a33;
+    color: #2b2a33;
     font-weight: 300;
-    padding: 10px;
-    margin: 10px;
-    letter-spacing: 2px;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    letter-spacing: 0.125rem;
 }
 .more-designs-btn:hover{
-    background: #0f4c75;
+    background: #2b2a33;
     color: white;
     transition:all 0.5s;
+}
+
+/* about us design */
+
+.block-label img{
+    border-radius: 50%;
 }
 
 .flex-block{
@@ -93,18 +100,18 @@ a:hover{
     overflow: hidden;
 }
 .why-us-flex-item{
-    background: #0f4c75;
+    background: #2b2a33;
     color: white;
     width: 20%;
-    padding: 40px;
-    margin: 20px;
+    padding: 2.5rem;
+    margin: 1.25rem;
 }
 
 .block-label{
     font-variant: small-caps;
-    font-size: 20px;
-    margin-bottom: 20px;
-    letter-spacing: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.313rem;
 }
 
 .block-desccription{
@@ -112,93 +119,94 @@ a:hover{
 }
 .block-number{
     font-weight: bold;
-    font-size: 50px;
-    padding: 20px; 
+    font-size: 3.125rem;
+    padding: 1.25rem;
 }
 
 .appointment-flex-item{
-    background: #0f4c75;
+    background: #2b2a33;
     color: white;
-    height: 450px;
-    padding: 0px;
-    margin: 20px 0px;
+    height: 28.125rem;
+    padding: 0rem;
+    margin: 1.25rem 0rem;
     overflow: hidden;
 }
 
 .appoinment-img{
-        background-image: url(images/appointmentimage1.jpg);  
+        background-image: url(images/appointmentimage1.jpg); 
+        
 }
 
 .appoinment-text{
-    padding: 200px 20px;
-    font-size: 50px;
+    padding: 12.125rem 1.25rem;
+    font-size: 3.125rem;
     background: rgba(0, 0, 0, 0.5);
 }
 .appointment-form{
-    padding: 20px;
+    padding: 1.2rem;
+    
 }
 
 .appointment-form input, textarea{
-    width: 60%;
-    max-width: 60%;
-    padding: 10px;
-    margin-bottom: 20px;
+    width: 90%;
+    max-width: 90%;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
     outline: none;
     text-align: center;
-    color: #0f4c75;
-    font-size: 16px;
+    color: #2b2a33;
+    font-size: 1rem;
 }
 
 .appointment-form textarea{
-    height: 100px;
-    max-height: 100px;
-    max-width: 60%;
+    height: 6.25rem;
+    max-height: 6.25rem;
+    max-width: 90%;
     overflow-y: scroll;
 }
 
 .Appointment-btn{
-    border: 2px solid white;
+    border: 0.125rem solid white;
     background: transparent;
     color: white;
-    padding: 15px;
+    padding: 0.938rem;
     outline: none;
 }
 .Appointment-btn:hover{
     background: white;
-    color: #0f4c75;
+    color: #2b2a33;
 }
 
 .footer{
-    background: #0f4c75;
+    background: #2b2a33;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
 }
 
 .locations{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     display: inline-block;
-    letter-spacing: 5px;
+    letter-spacing: 0.313rem;
     font-variant: small-caps;
-    padding: 20px;  
+    padding: 1.25rem;  
 }
 .address{
     font-weight: lighter;
-    padding: 20px;
-    font-size: 16px;   
+    padding: 1.25rem;
+    font-size: 1rem;   
 }
 
 .social-media-icons i{
     color: white;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 1.875rem;
+    padding: 0.625rem;
 }
 
 .copyright{
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
-    margin: 15px;
+    margin: 0.938rem;
 }
-
