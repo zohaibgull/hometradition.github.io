@@ -143,6 +143,15 @@ a:hover{
     border-radius: 4rem 4rem 4rem 4rem;
 }
 
+.page-block-intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    letter-spacing: 0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .about-us-flex-item figure img{
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -163,7 +172,6 @@ a:hover{
 .social-media-icons-profile i:hover{
     color:  rgba(252, 194, 4, 0.637);
 }
-
 
 .block-label{
     font-variant: small-caps;
