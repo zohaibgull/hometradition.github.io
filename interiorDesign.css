@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     animation: animate 10s ease-in-out infinite
+    
 
 }
 @keyframes animate{
@@ -16,13 +17,13 @@ body{
     25%{
         background-image: url(images/topsliderimage2.jpeg);
     }
-    25%{
+    50%{
         background-image: url(images/topsliderimage3.jpeg);
     }
     75%{
         background-image: url(images/topsliderimage4.jpeg);
     }
-    75%{
+    90%{
         background-image: url(images/topsliderimage5.jpeg);
     }
 }
