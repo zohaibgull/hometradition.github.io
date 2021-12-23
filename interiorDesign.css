@@ -17,13 +17,13 @@ body{
     25%{
         background-image: url(images/topsliderimage2.jpeg);
     }
-    50%{
+    75%{
         background-image: url(images/topsliderimage3.jpeg);
     }
-    75%{
+    25%{
         background-image: url(images/topsliderimage4.jpeg);
     }
-    90%{
+    75%{
         background-image: url(images/topsliderimage5.jpeg);
     }
 }
@@ -245,13 +245,57 @@ a:hover{
 }
 
 .footer{
+    
+    bottom: 0rem;
+    width: 100%;
     background: #2b2a33;
     text-align: center;
     padding: 1.25rem;
     margin-top: 2.5rem;
 }
 
-.locations{
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 0.625rem 1.25rem;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: wheat;
+}
+.box .content{
+    color: white;
+    margin: 1.25rem 0rem 0rem 0rem;   
+}
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .social{
+    margin: 1.25rem 0rem 0rem 0rem;
+}
+.left .content .social a{
+    padding: 0rem 0.125rem;
+}
+.left .content .social a span{
+    height: 2.5rem;
+    width: 2.5rem;
+    background:  rgba(252, 194, 4, 0.637) ;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.125rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+
+}
+ 
+/* .locations{
     color: white;
     font-size: 1.25rem;
     font-weight: bold;
@@ -270,10 +314,22 @@ a:hover{
     color: white;
     font-size: 1.875rem;
     padding: 0.625rem;
-}
+} */
 
 .copyright{
     font-size: 1rem;
     text-align: center;
     margin: 0.938rem;
+}
+.copyright .cp-text{
+    color: rgba(240, 188, 20, 0.7);
+    text-shadow: 0rem 0.063rem rgba(255, 255, 255, 0.1);
+
+}
+.copyright .cp-text a{
+    color: rgba(240, 188, 20, 0.7);
+
+}
+.copyright .cp-text a:hover{
+    
 }
